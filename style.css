@@ -16,11 +16,15 @@ body {
 #title {
   text-align: center;
   padding-top: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 h1 {
   text-transform: uppercase;
+}
+
+h1 span {
+  font-size: 2.5rem;
 }
 
 #img-div {
@@ -31,12 +35,13 @@ h1 {
   align-content: center;
   width: 70%;
   background-color: whitesmoke;
-  border: 1px solid rgb(65, 60, 60);
+  border: 1px solid rgb(207, 22, 22);
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 4px;
   padding-top: 2rem;
-  box-shadow: 10px 5px 5px rgb(68, 67, 67);
+  margin-bottom: 2rem;
+  box-shadow: 10px 7px 5px rgb(204, 71, 71);
 }
 
 #image {
@@ -54,3 +59,32 @@ h1 {
 #img-caption span {
   font-size: 0.7rem;
 }
+
+section {
+  margin: auto;
+  width: 90%;
+}
+
+h2, p {
+  text-align: center;
+}
+
+li span {
+  color: red
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+footer {
+  font-size: 0.8rem;
+  padding: 1.5rem;
+}
+
+
+
